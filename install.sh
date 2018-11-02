@@ -16,7 +16,7 @@ fi
 
 # git clone vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/lmule/vim.git ~/.vim/vimrc
+git clone https://github.com/residualspiritqqlin/vim.git ~/.vim/vimrc
 
 # promote the autoload priority of vundle
 mkdir -p ~/.vim/autoload
