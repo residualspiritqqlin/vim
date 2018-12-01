@@ -134,10 +134,10 @@ autocmd filetype smarty,tpl let &l:filetype='html'
 set keywordprg=:help
 let s:vimfile = '~/.vim/'
 " 多窗口时调整当前窗口的大小
-nnoremap <Up> <C-w>10+
-nnoremap <Down> <C-w>10-
-nnoremap <Left> <C-w>10<
-nnoremap <right> <C-w>10>
+" nnoremap <Up> <C-w>10+
+" nnoremap <Down> <C-w>10-
+" nnoremap <Left> <C-w>10<
+" nnoremap <right> <C-w>10>
 " 从minibuffer里面移植过来的
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
