@@ -472,7 +472,7 @@ endif
 
 "设置= + - * 前后自动空格
 "或者,后面自动添加空格
-let g:equ=1
+"let g:equ=1
 if exists("g:equ")
   :inoremap = <c-r>=EqualSign('=')<CR>
   :inoremap + <c-r>=EqualSign('+')<CR>
