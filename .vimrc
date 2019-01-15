@@ -168,7 +168,7 @@ Bundle 'Shougo/neomru.vim'
 Bundle 'Shougo/unite.vim'
 
 Bundle 'Shougo/neocomplcache.vim'
-
+Bundle 'a.vim'
 Bundle 'kien/ctrlp.vim'
 map <leader>p :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
