@@ -168,8 +168,14 @@ Bundle 'Shougo/neomru.vim'
 Bundle 'Shougo/unite.vim'
 
 Bundle 'Shougo/neocomplcache.vim'
+
 Bundle 'a.vim'
+
 Bundle 'kien/ctrlp.vim'
+
+# cpp/h switch
+nnoremap <F1> :A <CR>
+
 map <leader>p :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
 map <leader>t :CtrlPTag<CR>
