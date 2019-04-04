@@ -247,6 +247,7 @@ let g:neocomplcache_force_omni_patterns.cpp = '[^.[:digit:]*]\%(\.\|->\)\|\h\w*:
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplcache_force_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+let g:NeoComplCache_DisableAutoComplete = 1
 
 Bundle 'jlanzarotta/bufexplorer'
 map <F3> :ToggleBufExplorer<CR>
