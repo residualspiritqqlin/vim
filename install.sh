@@ -17,6 +17,7 @@ fi
 # git clone vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/residualspiritqqlin/vim.git ~/.vim/vimrc
+git clone https://github.com/residualspiritqqlin/vim-colors-solarized.git ~/.vim/vim-colors-solarized
 
 # promote the autoload priority of vundle
 mkdir -p ~/.vim/autoload
@@ -32,3 +33,4 @@ vim +BundleInstall +qa
 # establing soft link of colorscheme
 mkdir -p ~/.vim/colors
 ln -s ~/.vim/bundle/molokai/colors/molokai.vim ~/.vim/colors/
+ln -s ~/.vim/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
