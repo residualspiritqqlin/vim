@@ -1,6 +1,9 @@
 " Disable Vi compatibility
 set nocompatible
-colorscheme default
+syntax enable
+set background=light
+colorscheme solarized
+"colorscheme default
 
 "set list
 "set listchars=tab:.\
