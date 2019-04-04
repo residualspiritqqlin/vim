@@ -292,7 +292,7 @@ let g:UltiSnipsExpandTrigger="<TAB>"
 
 Bundle "comments.vim"
 
-Bundle "tomasr/molokai"
+Bundle "residualspiritqqlin/molokai"
 silent! colorscheme molokai
 
 Bundle 'Valloric/MatchTagAlways'
