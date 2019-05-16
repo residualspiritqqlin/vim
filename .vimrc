@@ -176,11 +176,28 @@ Bundle 'a.vim'
 
 Bundle 'kien/ctrlp.vim'
 
+Bundle 'vim-airline/vim-airline.git'
+
+Bundle 'vim-airline/vim-airline-themes.git'
+
 " cpp/h switch
 nnoremap <F1> :A <CR>
-map <leader>p :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
 map <leader>t :CtrlPTag<CR>
+map <leader>n :bn<CR>
+map <leader>p :bp<CR>
+
+" airline setting
+set laststatus=2
+set t_Co=256
+"let g:airline_detect_whitespace          = 0
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+"let g:airline_theme                      = "luna"
+let g:airline_theme                      = "molokai"
+let g:airline#extensions#tabline#fnamemod = ':p:t'
+
 let g:ctrlp_switch_buffer = 'Et'
 let g:ctrlp_working_path_mode = 'rwa'
 let g:ctrlp_open_new_file = 'h'
