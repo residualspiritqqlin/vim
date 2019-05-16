@@ -15,7 +15,7 @@ if [ -d ~/.vim ]; then
 fi
 
 # git clone vundle
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/gmarik/residualspiritqqlin/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/residualspiritqqlin/vim.git ~/.vim/vimrc
 git clone https://github.com/residualspiritqqlin/vim-colors-solarized.git ~/.vim/vim-colors-solarized
 
