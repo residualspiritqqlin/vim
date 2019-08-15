@@ -532,3 +532,7 @@ function! EqualSign(char)
     endif 
   endif
 endf
+
+" 高亮多余的空白字符及 Tab
+highlight RedundantSpaces ctermbg=red guibg=red
+match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
